@@ -1,0 +1,33 @@
+{
+  "name": "redis-autosuggest",
+  "version": "1.0.0",
+  "description": "Redis autosuggest",
+  "main": "lib/autosuggest.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KlausTrainer/redis-autosuggest"
+  },
+  "keywords": [
+    "Redis",
+    "autosuggest",
+    "autocomplete"
+  ],
+  "author": "Klaus Trainer",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/KlausTrainer/redis-autosuggest/issues"
+  },
+  "homepage": "https://github.com/KlausTrainer/redis-autosuggest",
+  "dependencies": {
+    "redis": "~0.12.1"
+  },
+  "devDependencies": {
+    "tape": "~3.5.0"
+  }
+}
